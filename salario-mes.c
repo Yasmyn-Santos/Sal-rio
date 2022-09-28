@@ -11,7 +11,7 @@ Imprima o número e o salário do funcionário, conforme exemplo fornecido, com 
 também deve haver um espaço em branco após o $. /*
 
 int main() {
- 
+
    int n, h;
    float vh;
    scanf("%d %d %f",&n,&h,&vh);
