@@ -22,3 +22,19 @@ int main() {
 
     return 0;
 }
+
+/* USANDO O DOUBLE */
+
+#include <stdio.h>
+ 
+int main() {
+    
+    int num, h;
+    double valor_hora;
+    scanf("%d %d %lf", &num, &h, &valor_hora);
+    
+    printf("NUMBER = %d\n", num);
+    printf("SALARY = U$ %.2lf\n", (valor_hora*h));
+    
+    return 0;
+}
